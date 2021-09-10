@@ -5,18 +5,12 @@ public class PrimerNumberProgram {
 	public static void main(String[] args) {
 		int num = 13;
 		boolean isPrime = true;
-		for (int i =1;i<=num/2;i++)
-		{
-if(num%i==0)
-{
-	 isPrime = false;
-}
-else
-{
-	System.out.println(num +"is a prime number");
-}
+		int i = 2;
+		if (num % i == 0) {
+			isPrime = false;
+		} else {
+			System.out.println("Prime number is:" + num);
+		}
 
-}
 	}
 }
-
